@@ -11,6 +11,19 @@ import { useCollectionData } from 'react-firebase-hooks/firestore';
 
 firebase.initializeApp({
   // your config
+   apiKey: "AIzaSyBGM3vqCn2ICHaG1c_xZeouo7iEHJzwIpM",
+
+  authDomain: "chatapp-pawit.firebaseapp.com",
+
+  projectId: "chatapp-pawit",
+
+  storageBucket: "chatapp-pawit.appspot.com",
+
+  messagingSenderId: "677082783660",
+
+  appId: "1:677082783660:web:4f2d120876df1f7163a409",
+
+  measurementId: "G-N27V1MTS6Y"
 })
 
 const auth = firebase.auth();
